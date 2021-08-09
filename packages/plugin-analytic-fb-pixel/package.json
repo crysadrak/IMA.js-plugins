@@ -1,6 +1,6 @@
 {
   "name": "@ima/plugin-analytic-fb-pixel",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "Seznam IMA.js analytic plugin for Facebook Pixel",
   "main": "index.js",
   "scripts": {

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.4](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-analytic-google@4.0.3...@ima/plugin-analytic-google@4.0.4) (2021-08-09)
+
+
+### Bug Fixes
+
+* update peers ([067c45d](https://github.com/seznam/IMA.js-plugins/commit/067c45d42ae4ab087d65909f2e901d6d6251fc81))
+
+
+
+
+
 ## [4.0.3](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-analytic-google@4.0.2...@ima/plugin-analytic-google@4.0.3) (2021-08-09)
 
 **Note:** Version bump only for package @ima/plugin-analytic-google
