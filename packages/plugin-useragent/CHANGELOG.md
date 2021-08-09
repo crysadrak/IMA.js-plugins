@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.3](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-useragent@3.0.2...@ima/plugin-useragent@3.0.3) (2021-08-09)
+
+
+### Bug Fixes
+
+* 🐛 set containerSelector to response for widget props ([#47](https://github.com/seznam/IMA.js-plugins/issues/47)) ([228048e](https://github.com/seznam/IMA.js-plugins/commit/228048e9b44dd6ef2208b2d541033870edd17041))
+
+
+
+
+
 ## [3.0.2](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-useragent@3.0.1...@ima/plugin-useragent@3.0.2) (2021-03-22)
 
 **Note:** Version bump only for package @ima/plugin-useragent
