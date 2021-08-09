@@ -25,7 +25,7 @@ to: packages/<%= h.changeCase.paramCase(name) %>/package.json
     "url": "https://github.com/seznam/IMA.js-plugins.git"
   },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/",
+    "registry": "http://localhost:4873/",
     "access": "public"
   },
   "bugs": {
