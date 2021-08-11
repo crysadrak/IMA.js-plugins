@@ -2,10 +2,8 @@ import {
   createImaApp,
   getClientBootConfig,
   onLoad,
-  bootClientApp,
-  vendorLinker
+  bootClientApp
 } from '@ima/core';
-import { vendors as imaVendors } from '@ima/core/build';
 import { assignRecursively } from '@ima/helpers';
 import { JSDOM } from 'jsdom';
 import { requireFromProject, loadFiles } from './helpers';
@@ -29,7 +27,6 @@ function clearImaApp(app) {
   global.setTimeout = setTimeoutNative;
   global.setImmediate = setImmediateNative;
   timers.forEach(({ clear }) => clear());
-  vendorLinker.clear();
   app.oc.clear();
 }
 
@@ -42,42 +39,7 @@ function clearImaApp(app) {
 async function initImaApp(bootConfigMethods = {}) {
   const config = getConfig();
   const bootConfigExtensions = getBootConfigExtensions();
-  let vendors = null;
   let defaultBootConfigMethods = null;
-
-  /**
-   * Initializes all common, client and server vendors
-   */
-  function _initVendorLinker() {
-    const initializedVendors = [];
-
-    []
-      .concat(
-        vendors.common,
-        vendors.client,
-        vendors.server,
-        imaVendors.common,
-        imaVendors.server,
-        imaVendors.client
-      )
-      .forEach(vendor => {
-        let key = vendor;
-        let value = vendor;
-
-        if (typeof vendor === 'object') {
-          key = Object.keys(vendor)[0];
-          value = vendor[key];
-        }
-
-        if (initializedVendors.includes(key)) {
-          return;
-        }
-
-        initializedVendors.push(key);
-
-        vendorLinker.set(key, require(value));
-      });
-  }
 
   /**
    * Initializes JSDOM environment for the application run
@@ -168,8 +130,6 @@ async function initImaApp(bootConfigMethods = {}) {
   // to prevent errors with missing document/window
   const { js, ...build } = requireFromProject(config.appBuildPath);
 
-  vendors = build.vendors;
-
   global.$IMA.i18n = generateDictionary(build.languages, config.locale);
 
   defaultBootConfigMethods = requireFromProject(
@@ -184,7 +144,6 @@ async function initImaApp(bootConfigMethods = {}) {
   }
 
   _installTimerWrappers();
-  _initVendorLinker();
 
   await config.prebootScript();
 
