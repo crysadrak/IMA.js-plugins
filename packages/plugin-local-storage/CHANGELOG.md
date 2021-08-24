@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-local-storage@2.0.2...@ima/plugin-local-storage@2.2.0) (2021-08-24)
+
+
+### Features
+
+* 🎸 add node16 and npm7 support ([#49](https://github.com/seznam/IMA.js-plugins/issues/49)) ([16fcc0e](https://github.com/seznam/IMA.js-plugins/commit/16fcc0eab73da5651171d110100e5a5ec9cbdcf1))
+* 🎸 distribute to cjs, mjs, es5, es11 ([8106ddb](https://github.com/seznam/IMA.js-plugins/commit/8106ddb11b8cf7490eeb447156dc840bac3b0f28))
+* local ([4b2ab94](https://github.com/seznam/IMA.js-plugins/commit/4b2ab942d27cb7d2d7e865c838610a7e9ba2f7f3))
+
+
+
+
+
 # [2.1.0](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-local-storage@2.0.2...@ima/plugin-local-storage@2.1.0) (2021-08-24)
 
 

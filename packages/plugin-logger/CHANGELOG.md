@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-logger@3.0.1...@ima/plugin-logger@3.2.0) (2021-08-24)
+
+
+### Features
+
+* 🎸 distribute to cjs, mjs, es5, es11 ([8106ddb](https://github.com/seznam/IMA.js-plugins/commit/8106ddb11b8cf7490eeb447156dc840bac3b0f28))
+* local ([4b2ab94](https://github.com/seznam/IMA.js-plugins/commit/4b2ab942d27cb7d2d7e865c838610a7e9ba2f7f3))
+
+
+
+
+
 # [3.1.0](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-logger@3.0.1...@ima/plugin-logger@3.1.0) (2021-08-24)
 
 

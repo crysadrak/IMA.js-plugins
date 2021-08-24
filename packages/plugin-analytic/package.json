@@ -1,6 +1,6 @@
 {
   "name": "@ima/plugin-analytic",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Seznam IMA.js abstract analytic plugin",
   "main": "dist/main",
   "module": "dist/main",
@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ima/plugin-script-loader": "^2.1.0"
+    "@ima/plugin-script-loader": "^2.2.0"
   },
   "browserify": {
     "transform": [
