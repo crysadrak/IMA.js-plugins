@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-merkur@2.1.1...@ima/plugin-merkur@2.2.0) (2021-08-24)
+
+
+### Bug Fixes
+
+* add calling super constructor ([b972180](https://github.com/seznam/IMA.js-plugins/commit/b972180bd2559a4221e1f183e98059af37610379))
+
+
+### Features
+
+* 🎸 add node16 and npm7 support ([#49](https://github.com/seznam/IMA.js-plugins/issues/49)) ([16fcc0e](https://github.com/seznam/IMA.js-plugins/commit/16fcc0eab73da5651171d110100e5a5ec9cbdcf1))
+* 🎸 distribute to cjs, mjs, es5, es11 ([ce7af85](https://github.com/seznam/IMA.js-plugins/commit/ce7af856287f874952cccdc45b17ebfda07d8189))
+* local ([b8e74a3](https://github.com/seznam/IMA.js-plugins/commit/b8e74a3aa45fa88c93f57df0740998f625e61575))
+
+
+
+
+
 ## [2.1.1](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-merkur@2.1.0...@ima/plugin-merkur@2.1.1) (2021-08-19)
 
 

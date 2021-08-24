@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-less-constants@2.0.2...@ima/plugin-less-constants@2.1.0) (2021-08-24)
+
+
+### Features
+
+* 🎸 distribute to cjs, mjs, es5, es11 ([ce7af85](https://github.com/seznam/IMA.js-plugins/commit/ce7af856287f874952cccdc45b17ebfda07d8189))
+* local ([b8e74a3](https://github.com/seznam/IMA.js-plugins/commit/b8e74a3aa45fa88c93f57df0740998f625e61575))
+
+
+
+
+
 ## [2.0.2](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-less-constants@2.0.1...@ima/plugin-less-constants@2.0.2) (2021-03-22)
 
 **Note:** Version bump only for package @ima/plugin-less-constants

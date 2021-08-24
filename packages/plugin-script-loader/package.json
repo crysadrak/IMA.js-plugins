@@ -1,12 +1,12 @@
 {
   "name": "@ima/plugin-script-loader",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Seznam IMA.js plugin for loading script",
   "main": "dist/main",
   "module": "dist/main",
   "exports": {
-      "import": "./dist/main.mjs",
-      "require": "./dist/main.cjs"
+    "import": "./dist/main.mjs",
+    "require": "./dist/main.cjs"
   },
   "browser": {
     "./dist/main.js": "./dist/main.es5.js",
@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ima/plugin-resource-loader": "^2.0.1"
+    "@ima/plugin-resource-loader": "^2.1.0"
   },
   "engines": {
     "node": ">=6",
