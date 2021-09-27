@@ -1,12 +1,12 @@
 {
   "name": "@ima/plugin-self-xss",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "The plugin is trying to mitigate Self-XSS security attack by sending simple message into console",
   "main": "dist/main",
   "module": "dist/main",
   "exports": {
-      "import": "./dist/main.mjs",
-      "require": "./dist/main.cjs"
+    "import": "./dist/main.mjs",
+    "require": "./dist/main.cjs"
   },
   "browser": {
     "./dist/main.js": "./dist/main.es5.js",

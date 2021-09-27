@@ -1,12 +1,12 @@
 {
   "name": "@ima/plugin-xhr",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Helper plugin simplifying the usage of the XMLHttpRequest API.",
   "main": "dist/main",
   "module": "dist/main",
   "exports": {
-      "import": "./dist/main.mjs",
-      "require": "./dist/main.cjs"
+    "import": "./dist/main.mjs",
+    "require": "./dist/main.cjs"
   },
   "browser": {
     "./dist/main.js": "./dist/main.es5.js",

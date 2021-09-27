@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-xhr@2.0.1...@ima/plugin-xhr@3.0.0) (2021-09-27)
+
+
+### Features
+
+* 🎸 refactor rollup config, distribute to cjs, mjs, es5, es11, fix merkur test ([ef1e7bb](https://github.com/seznam/IMA.js-plugins/commit/ef1e7bbbf62e6e24b980b185788fd9c2122331f0))
+* local verdaccio ([dd5f764](https://github.com/seznam/IMA.js-plugins/commit/dd5f764e53f24def2073762d54883b10af6f6d12))
+
+
+### BREAKING CHANGES
+
+* 🧨 change package main, add module, exports and browser distribution shortcuts
+
+
+
+
+
 ## [2.0.1](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-xhr@2.0.0...@ima/plugin-xhr@2.0.1) (2020-06-22)
 
 **Note:** Version bump only for package @ima/plugin-xhr
