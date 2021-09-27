@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-logger@4.0.0...@ima/plugin-logger@4.0.1) (2021-09-27)
+
+
+### Bug Fixes
+
+* logger source code to es5 ([19a4310](https://github.com/seznam/IMA.js-plugins/commit/19a4310cf3f5e4c9f20ea40232f3ceb4e6eb91ff))
+
+
+
+
+
 # [4.0.0](https://github.com/seznam/IMA.js-plugins/compare/@ima/plugin-logger@3.0.1...@ima/plugin-logger@4.0.0) (2021-09-27)
 
 
